@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 
@@ -12,7 +12,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import ModeToggle from "./theme-btn";
+
 
 
 const Navbar = () => {
