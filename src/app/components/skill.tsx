@@ -8,10 +8,10 @@ const Skill = () => {
         <section className="text-gray-600 body-font bg-gray-900 md:bg-gray-800">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
-      <h2 className="text-xs text-blue-500 tracking-widest font-medium title-font mb-1">
+      <h2 className="text-xs dark:text-white sm:text-white text-blue-500 tracking-widest font-medium title-font mb-1">
         SKILLS
       </h2>
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-white">
+      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-white sm:text-white">
         My Skills
       </h1>
     </div>
@@ -23,7 +23,7 @@ const Skill = () => {
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
               <AiOutlineCheckSquare className='text-xl font-bold'/>
             </div>
-            <h2 className="text-gray-900 text-lg title-font font-medium dark:text-white">
+            <h2 className="text-gray-900 text-lg title-font font-medium dark:text-white sm:text-white">
               HTML
             </h2>
           </div>
@@ -43,7 +43,7 @@ const Skill = () => {
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
               <AiOutlineCheckSquare className='text-xl font-bold'/>
             </div>
-            <h2 className="text-gray-900 text-lg title-font font-medium  dark:text-white">
+            <h2 className="text-gray-900 text-lg title-font font-medium  dark:text-white sm:text-white">
               CSS
             </h2>
           </div>
@@ -63,7 +63,7 @@ const Skill = () => {
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
               <AiOutlineCheckSquare className='text-xl font-bold'/>
             </div>
-            <h2 className="text-gray-900 text-lg title-font font-medium  dark:text-white">
+            <h2 className="text-gray-900 text-lg title-font font-medium dark:text-white sm:text-white">
               Typescrit
             </h2>
           </div>
@@ -83,7 +83,7 @@ const Skill = () => {
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
               <AiOutlineCheckSquare className='text-xl font-bold'/>
             </div>
-            <h2 className="text-gray-900 text-lg title-font font-medium  dark:text-white">
+            <h2 className="text-gray-900 text-lg title-font font-medium  dark:text-white sm:text-white">
               Next.js
             </h2>
           </div>
@@ -103,7 +103,7 @@ const Skill = () => {
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
               <AiOutlineCheckSquare className='text-xl font-bold'/>
             </div>
-            <h2 className="text-gray-900 text-lg title-font font-medium  dark:text-white">
+            <h2 className="text-gray-900 text-lg title-font font-medium  dark:text-white sm:text-white">
               Figma
             </h2>
           </div>
@@ -123,7 +123,7 @@ const Skill = () => {
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
               <AiOutlineCheckSquare className='text-xl font-bold'/>
             </div>
-            <h2 className="text-gray-900 text-lg title-font font-medium  dark:text-white">
+            <h2 className="text-gray-900 text-lg title-font font-medium dark:text-white sm:text-white">
               EXCEL
             </h2>
           </div>
